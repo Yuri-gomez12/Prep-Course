@@ -4,8 +4,11 @@
 ---
 1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
 
-* `for`
-* `&&`, `||`, `!`
+* `for`= es una expresión para ser evaluada en un bucle, antes de la siguiente condicion 
+
+* `&&`,= AND cuando solo incluye valores booleanos, y devuelve verdadero si las dos expresiones son verdaderas 
+ `||`,= OR se comparan dos expresiones, si la primera se evalúa como "falsa" la sentencia devolvera el valor de la segunda expresión, si la premera se evalúa como "verdadera" la sentencia devolvera el valor de la priemra expresion. 
+  `!`= simbolo de negacion 
 
 2. Desde la carpeta `Prep` en la carpeta donde clonaste el repo, ingresa el comando `npm test JSII.test.js` para correr los tests automatizados. Al principio, todos los tests estarán fallados/rotos. Encontrarás las funciones para hacer pasar los tests en el archivo `homework.js`.
 
